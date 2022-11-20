@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  overflow-x: hidden;
+} */
+
+@layer components {
+  .main {
+    @apply md:overflow-x-hidden
+  }
+}
